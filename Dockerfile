@@ -7,7 +7,7 @@ RUN git clone -b ${CALENS_VERSION} https://github.com/restic/calens.git /usr/src
   cd /usr/src/app && \
   GO111MODULE=on go build -o /tmp/calens
 
-FROM alpine:3.14
+FROM alpine:3.15
 
 RUN apk add --no-cache bash
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
