@@ -1,0 +1,44 @@
+---
+name: 'calens'
+description: 'Generate changelogs based on Calens'
+author: 'actionhippie'
+
+inputs:
+  source:
+    description: |
+      Path to changelog definitions, defaults to `changelog`
+    required: false
+    default: 'changelog'
+
+  target:
+    description: |
+      Path to file where changelog gets written to
+    required: false
+
+  template:
+    description: |
+      Path to changelog template file, defaults to `changelog/CHANGELOG.tmpl`
+    required: false
+    default: 'changelog/CHANGELOG.tmpl'
+
+  version:
+    description: |
+      Generate changelog for defined version only
+    required: false
+
+  print:
+    description: |
+      Print generated changelog directly, defaults to `true`
+    required: false
+    default: 'true'
+
+outputs:
+  generated:
+    description: |
+      Generated changelog content
+
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/actionhippie/calens:v1'
+
+...

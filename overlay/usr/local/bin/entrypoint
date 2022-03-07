@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -e
+set -o pipefail
+set -o noglob
+
+if [[ -z "${INPUT_TARGET}" ]]; then
+    INPUT_TARGET="$(mktemp /tmp/calens.XXXXXX)"
+fi
+
+pushd "${GITHUB_WORKSPACE}" >/dev/null
+    ARGS=()
+
+    if [[ -n "${INPUT_SOURCE}" ]]; then
+        ARGS+=(--input "${INPUT_SOURCE}")
+    fi
+
+    if [[ -n "${INPUT_TARGET}" ]]; then
+        ARGS+=(--output "${INPUT_TARGET}")
+    fi
+
+    if [[ -n "${INPUT_TEMPLATE}" ]]; then
+        ARGS+=(--template "${INPUT_TEMPLATE}")
+    fi
+
+    if [[ -n "${INPUT_VERSION}" ]]; then
+        ARGS+=(--version "${INPUT_VERSION//refs\/tags\//}")
+    fi
+
+    calens "${ARGS[@]}"
+    echo "::set-output name=generated::$(cat ${INPUT_TARGET})"
+
+    if [[ "${INPUT_PRINT}" == "true" || "${INPUT_PRINT}" == "1" ]]; then
+        cat "${INPUT_TARGET}"
+    fi
+popd >/dev/null
