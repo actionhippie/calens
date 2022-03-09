@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-set -e
-set -o pipefail
-set -o noglob
+set -eo pipefail
 
 if [[ -z "${INPUT_TARGET}" ]]; then
     INPUT_TARGET="$(mktemp /tmp/calens.XXXXXX)"
@@ -23,11 +21,20 @@ pushd "${GITHUB_WORKSPACE}" >/dev/null
     fi
 
     if [[ -n "${INPUT_VERSION}" ]]; then
-        ARGS+=(--version "${INPUT_VERSION//refs\/tags\//}")
+        CLEANUP_VERSION=${INPUT_VERSION//refs\/tags\/v/}
+        CLEANUP_TAGGING=${CLEANUP_VERSION//refs\/tags\//}
+
+        ARGS+=(--version "${CLEANUP_TAGGING}")
     fi
 
     calens "${ARGS[@]}"
-    echo "::set-output name=generated::$(cat ${INPUT_TARGET})"
+
+    OUTPUT_SUBSTITUTE="$(cat ${INPUT_TARGET})"
+    OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//'%'/'%25'}"
+    OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//$'\n'/'%0A'}"
+    OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//$'\r'/'%0D'}"
+
+    echo "::set-output name=generated::${OUTPUT_SUBSTITUTE}"
 
     if [[ "${INPUT_PRINT}" == "true" || "${INPUT_PRINT}" == "1" ]]; then
         cat "${INPUT_TARGET}"
