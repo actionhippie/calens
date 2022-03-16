@@ -1,4 +1,4 @@
-FROM golang:1.17-alpine as build
+FROM golang:1.18-alpine as build
 
 # renovate: datasource=github-tags depName=restic/calens
 ENV CALENS_VERSION=v0.2.0
