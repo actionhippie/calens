@@ -34,7 +34,7 @@ pushd "${GITHUB_WORKSPACE}" >/dev/null
     OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//$'\n'/'%0A'}"
     OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//$'\r'/'%0D'}"
 
-    echo "generated=${OUTPUT_SUBSTITUTE}" >> ${GITHUB_STATE}
+    echo "generated=${OUTPUT_SUBSTITUTE}" >> ${GITHUB_OUTPUT}
 
     if [[ "${INPUT_PRINT}" == "true" || "${INPUT_PRINT}" == "1" ]]; then
         cat "${INPUT_TARGET}"
