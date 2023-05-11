@@ -1,6 +1,6 @@
 # calens
 
-[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/calens?sort=semver)](https://github.com/actionhippie/calens) [![Docker Build](https://github.com/actionhippie/calens/workflows/docker/badge.svg)](https://github.com/actionhippie/calens/actions?query=workflow%3Adocker)
+[![Current Tag](https://img.shields.io/github/v/tag/actionhippie/calens?sort=semver)](https://github.com/actionhippie/calens) [![Docker Build](https://github.com/actionhippie/calens/workflows/docker/badge.svg)](https://github.com/actionhippie/calens/actions/workflows/docker.yml)
 
 [GitHub Action](https://github.com/features/actions) to generate changelogs based on [Calens](https://github.com/restic/calens).
 
