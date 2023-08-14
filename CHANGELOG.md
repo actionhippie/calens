@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/actionhippie/calens/compare/v1.1.0...v1.2.0) (2023-08-14)
+
+
+### Features
+
+* **deps:** update golang docker tag to v1.21 ([a4cc5b0](https://github.com/actionhippie/calens/commit/a4cc5b0803a895dc5c41026214f143d66d3e49a1))
+
 ## [1.1.0](https://github.com/actionhippie/calens/compare/v1.0.0...v1.1.0) (2023-05-11)
 
 
