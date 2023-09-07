@@ -29,12 +29,11 @@ pushd "${GITHUB_WORKSPACE}" >/dev/null
 
     calens "${ARGS[@]}"
 
-    OUTPUT_SUBSTITUTE="$(cat ${INPUT_TARGET})"
-    OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//'%'/'%25'}"
-    OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//$'\n'/'%0A'}"
-    OUTPUT_SUBSTITUTE="${OUTPUT_SUBSTITUTE//$'\r'/'%0D'}"
-
-    echo "generated=${OUTPUT_SUBSTITUTE}" >> ${GITHUB_OUTPUT}
+    {
+        echo 'generated<<EOF'
+        cat "${INPUT_TARGET}"
+        echo EOF
+    } >> "${GITHUB_OUTPUT}"
 
     if [[ "${INPUT_PRINT}" == "true" || "${INPUT_PRINT}" == "1" ]]; then
         cat "${INPUT_TARGET}"
