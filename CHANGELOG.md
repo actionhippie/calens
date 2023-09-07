@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/actionhippie/calens/compare/v1.2.0...v1.2.1) (2023-09-07)
+
+
+### Bugfixes
+
+* use new output multiline command ([fb7ed6c](https://github.com/actionhippie/calens/commit/fb7ed6cafab22901e05ba19b9ed11657241a339a))
+
 ## [1.2.0](https://github.com/actionhippie/calens/compare/v1.1.0...v1.2.0) (2023-08-14)
 
 
