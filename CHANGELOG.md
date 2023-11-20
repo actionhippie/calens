@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/actionhippie/calens/compare/v1.2.1...v1.3.0) (2023-11-20)
+
+
+### Features
+
+* **deps:** update dependency restic/calens to v0.4.0 ([c25496b](https://github.com/actionhippie/calens/commit/c25496b627cf46c1984c0dd3f6986e295e8defd2))
+
 ## [1.2.1](https://github.com/actionhippie/calens/compare/v1.2.0...v1.2.1) (2023-09-07)
 
 
