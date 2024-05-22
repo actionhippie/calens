@@ -8,7 +8,7 @@ RUN apk add --no-cache git && \
   cd /usr/src/app && \
   GO111MODULE=on go build -o /tmp/calens
 
-FROM alpine:3.19
+FROM alpine:3.20
 
 RUN apk add --no-cache bash
 ENTRYPOINT ["/usr/local/bin/entrypoint"]
