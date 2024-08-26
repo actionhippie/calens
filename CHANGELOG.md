@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/actionhippie/calens/compare/v1.6.0...v1.7.0) (2024-08-26)
+
+
+### Features
+
+* **deps:** update golang docker tag to v1.23 ([33e6703](https://github.com/actionhippie/calens/commit/33e6703669069579b53b30b7aae477e1a4bde2c1))
+
 ## [1.6.0](https://github.com/actionhippie/calens/compare/v1.5.0...v1.6.0) (2024-05-27)
 
 
