@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/actionhippie/calens/compare/v1.7.0...v1.8.0) (2024-12-09)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.21 ([#28](https://github.com/actionhippie/calens/issues/28)) ([7863f40](https://github.com/actionhippie/calens/commit/7863f400f9fafa04d84320be11cccc61fd0ae687))
+
 ## [1.7.0](https://github.com/actionhippie/calens/compare/v1.6.0...v1.7.0) (2024-08-26)
 
 
