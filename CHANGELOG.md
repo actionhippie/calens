@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.9.0](https://github.com/actionhippie/calens/compare/v1.8.0...v1.9.0) (2025-07-07)
+
+
+### Features
+
+* **deps:** update alpine docker tag to v3.22 ([#30](https://github.com/actionhippie/calens/issues/30)) ([50370d1](https://github.com/actionhippie/calens/commit/50370d1cbca410094788eaaf8b6a7a7ff8209768))
+* **deps:** update golang docker tag to v1.24 ([#29](https://github.com/actionhippie/calens/issues/29)) ([6391a13](https://github.com/actionhippie/calens/commit/6391a1310239568d2fa7509aabc75949d531be01))
+* replace release workflow and add workflow langserver ref ([6dc45c4](https://github.com/actionhippie/calens/commit/6dc45c46c5efdd76cea6219574b64c3cef899491))
+
 ## [1.8.0](https://github.com/actionhippie/calens/compare/v1.7.0...v1.8.0) (2024-12-09)
 
 
