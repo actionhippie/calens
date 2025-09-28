@@ -1,7 +1,11 @@
 ---
-name: 'calens'
+# yaml-language-server: $schema=https://www.schemastore.org/github-action.json
+name: 'actionhippie-calens'
 description: 'Generate changelogs based on Calens'
 author: 'actionhippie'
+branding:
+  icon: book-open
+  color: green
 
 inputs:
   source:
