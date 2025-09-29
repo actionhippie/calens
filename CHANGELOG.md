@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/actionhippie/calens/compare/v1.10.0...v1.10.1) (2025-09-29)
+
+
+### Bugfixes
+
+* **deps:** pin dependencies ([#34](https://github.com/actionhippie/calens/issues/34)) ([ce61393](https://github.com/actionhippie/calens/commit/ce6139374aadecde769c92b7b5d8de6f37e98ad5))
+
 ## [1.10.0](https://github.com/actionhippie/calens/compare/v1.9.0...v1.10.0) (2025-08-18)
 
 
