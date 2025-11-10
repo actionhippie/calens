@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/actionhippie/calens/compare/v1.10.4...v1.11.0) (2025-11-10)
+
+
+### Features
+
+* integrate amd64 and arm64 support ([68dbb22](https://github.com/actionhippie/calens/commit/68dbb2283d19fd3727b903c324c36a026171ef51))
+
 ## [1.10.4](https://github.com/actionhippie/calens/compare/v1.10.3...v1.10.4) (2025-11-10)
 
 ## [1.10.3](https://github.com/actionhippie/calens/compare/v1.10.2...v1.10.3) (2025-10-20)
