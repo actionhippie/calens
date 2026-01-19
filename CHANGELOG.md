@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.12.4](https://github.com/actionhippie/calens/compare/v1.12.3...v1.12.4) (2026-01-19)
+
+### Bugfixes
+
+* always add a v prefix to image refs on release ([7b1e807](https://github.com/actionhippie/calens/commit/7b1e807721d8a890d75be42ec03276a4879689a8))
+
+### Miscellaneous
+
+* use correct categories for releaserc to fix changelog ([4e827a0](https://github.com/actionhippie/calens/commit/4e827a05ae760ea5e3e8c90165ae0005b1017545))
+
 ## [1.12.3](https://github.com/actionhippie/calens/compare/v1.12.2...v1.12.3) (2026-01-19)
 
 ### Bugfixes
