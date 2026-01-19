@@ -102,8 +102,8 @@
                         "files": [
                             "action.yml"
                         ],
-                        "from": "docker://ghcr.io/actionhippie/calens:.*",
-                        "to": "docker://ghcr.io/actionhippie/calens:${nextRelease.version}",
+                        "from": "'docker://ghcr.io/actionhippie/calens:.*'",
+                        "to": "'docker://ghcr.io/actionhippie/calens:${nextRelease.version}'",
                         "results": [
                             {
                                 "file": "action.yml",
