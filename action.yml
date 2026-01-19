@@ -43,6 +43,6 @@ outputs:
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/actionhippie/calens:1.12.2'
+  image: 'docker://ghcr.io/actionhippie/calens:1.12.3'
 
 ...

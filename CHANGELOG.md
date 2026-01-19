@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.12.3](https://github.com/actionhippie/calens/compare/v1.12.2...v1.12.3) (2026-01-19)
+
+### Bugfixes
+
+* resolve missing quote in action config ([e0da30d](https://github.com/actionhippie/calens/commit/e0da30d28061dbbb19806bd4242b13cfbe7ca610))
+
 ## [1.12.2](https://github.com/actionhippie/calens/compare/v1.12.1...v1.12.2) (2026-01-19)
 
 ## [1.12.1](https://github.com/actionhippie/calens/compare/v1.12.0...v1.12.1) (2025-12-22)
