@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.12.2](https://github.com/actionhippie/calens/compare/v1.12.1...v1.12.2) (2026-01-19)
+
 ## [1.12.1](https://github.com/actionhippie/calens/compare/v1.12.0...v1.12.1) (2025-12-22)
 
 ## [1.12.0](https://github.com/actionhippie/calens/compare/v1.11.0...v1.12.0) (2025-12-08)
