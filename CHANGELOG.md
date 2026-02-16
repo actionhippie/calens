@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.13.0](https://github.com/actionhippie/calens/compare/v1.12.6...v1.13.0) (2026-02-16)
+
+### Dependencies
+
+* **minor:** update golang docker tag to v1.26 ([#76](https://github.com/actionhippie/calens/issues/76)) ([fbccc72](https://github.com/actionhippie/calens/commit/fbccc7255508309de3b5f3fafd4130343387864d))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([fc877da](https://github.com/actionhippie/calens/commit/fc877da85b8ef9f828c046bf340df7348017748e))
+
 ## [1.12.6](https://github.com/actionhippie/calens/compare/v1.12.5...v1.12.6) (2026-02-09)
 
 ### Dependencies
