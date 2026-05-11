@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.13.4](https://github.com/actionhippie/calens/compare/v1.13.3...v1.13.4) (2026-05-11)
+
+### Dependencies
+
+* **patch:** update golang:1.26-alpine docker digest to 91eda97 ([#87](https://github.com/actionhippie/calens/issues/87)) ([4d39cd7](https://github.com/actionhippie/calens/commit/4d39cd72e586abcf4ee2759ac76bbcba2059d3c6))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([980b19c](https://github.com/actionhippie/calens/commit/980b19c94cd39768e04dbfaba37d85db5c1b4b85))
+* **flake:** updated lockfile [skip ci] ([3b744c4](https://github.com/actionhippie/calens/commit/3b744c472729ca11dd3bd3362b0dc88f5864a974))
+* **flake:** updated lockfile [skip ci] ([85183a9](https://github.com/actionhippie/calens/commit/85183a98a941d15baa5e72effcb73aa118710164))
+
 ## [1.13.3](https://github.com/actionhippie/calens/compare/v1.13.2...v1.13.3) (2026-04-20)
 
 ### Dependencies
