@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.13.5](https://github.com/actionhippie/calens/compare/v1.13.4...v1.13.5) (2026-06-08)
+
+### Dependencies
+
+* **patch:** update docker digests ([40077f1](https://github.com/actionhippie/calens/commit/40077f10d4ca9e56c4f8af56bac8871f463a4be8))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([4c49113](https://github.com/actionhippie/calens/commit/4c49113997fa35ec08ee49517e4ae71328a0cd3c))
+* **flake:** updated lockfile [skip ci] ([2b682d1](https://github.com/actionhippie/calens/commit/2b682d10eb689786552d6bc9e25633256adeccad))
+* **flake:** updated lockfile [skip ci] ([76b438f](https://github.com/actionhippie/calens/commit/76b438feeb87b077bb76db7e657fd8719764935f))
+* **flake:** updated lockfile [skip ci] ([1be88b8](https://github.com/actionhippie/calens/commit/1be88b821f4fa2cc2e0a63b29838a0c91c368350))
+
 ## [1.13.4](https://github.com/actionhippie/calens/compare/v1.13.3...v1.13.4) (2026-05-11)
 
 ### Dependencies
