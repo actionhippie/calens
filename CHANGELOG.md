@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.14.0](https://github.com/actionhippie/calens/compare/v1.13.5...v1.14.0) (2026-06-15)
+
+### Dependencies
+
+* **minor:** update alpine docker tag to v3.24 ([#89](https://github.com/actionhippie/calens/issues/89)) ([d206715](https://github.com/actionhippie/calens/commit/d206715ed5b83c028166a266e57e07fc637a2182))
+* **patch:** update docker digests ([462dde5](https://github.com/actionhippie/calens/commit/462dde5e1126bde4905fa59f57e95dfbb4d74514))
+* **patch:** update docker digests ([19e3336](https://github.com/actionhippie/calens/commit/19e33362290b8c64ea672bbf95838396e05b58b0))
+* **patch:** update docker digests ([#92](https://github.com/actionhippie/calens/issues/92)) ([22b21b2](https://github.com/actionhippie/calens/commit/22b21b24a0d00b554fd15ce6b6a61eb95ab19499))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([f2f222c](https://github.com/actionhippie/calens/commit/f2f222c6af031b40441cf5dbfae7e2cba4c339fb))
+
 ## [1.13.5](https://github.com/actionhippie/calens/compare/v1.13.4...v1.13.5) (2026-06-08)
 
 ### Dependencies
