@@ -1,5 +1,7 @@
 # Changelog
 
+## [1.14.2](https://github.com/actionhippie/calens/compare/v1.14.1...v1.14.2) (2026-07-13)
+
 ## [1.14.1](https://github.com/actionhippie/calens/compare/v1.14.0...v1.14.1) (2026-06-22)
 
 ### Dependencies
